@@ -1,9 +1,11 @@
+import ProjectCard from './ProjectCard'
 
-
-function Projects() {
+function Projects({ projects }) {
     return (
         <div className="Projects">
-            <h6>projects</h6>
+            {projects.map(project => {
+                return <ProjectCard project={project} key={project.github} />
+            })}
         </div>
     );
 }
