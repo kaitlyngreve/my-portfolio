@@ -2,8 +2,10 @@
 
 function About() {
     return (
-        <div className="About">
-            <h5>this is my bio</h5>
+        <div className="about-container">
+            <div className="info-div">
+                <h5>this is my bio</h5>
+            </div>
         </div>
     );
 }
