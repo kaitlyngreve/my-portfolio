@@ -5,16 +5,26 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ebfdb3;
+  background-color: #87ba9f;
 }
 
 textarea {
   resize: none;
-  font-family: 'Montserrat', sans-serif;
 }
 
-input {
-  font-family: 'Montserrat', sans-serif;
+textarea::placeholder,
+input::placeholder {
+  font-size: 18px;
+  color: black;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 18px;
 }
 
 code {
@@ -24,7 +34,6 @@ code {
 
 .card {
   background: #fff;
-  box-shadow: 0 10px 15px -3px hsl(23deg 70% 24% / 15%);
 }
 
 .section-card {
@@ -32,7 +41,11 @@ code {
   width: 100%;
   border-radius: 25px;
   padding: 50px;
-  box-shadow: 0 10px 15px -3px hsl(23deg 70% 24% / 15%);
+}
+
+.card,
+.section-card {
+  box-shadow: 0 10px 15px -3px rgba(3, 94, 56, 0.15);
 }
 
 .section-contained {
@@ -91,6 +104,7 @@ code {
 }
 
 .contact-form-inputs {
+  border: solid rgb(81, 81, 81, 0.3);
   font-size: 16px;
   display: flex;
   flex-direction: column;
@@ -99,5 +113,21 @@ code {
   margin: 10px 0;
   padding: 15px 20px;
   border-radius: 7px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.send-button {
+  background-color: #87ba9f;
+  border: none;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  padding: 10px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  line-height: 1.3em;
+}
+
+.send-button:hover {
+  cursor: pointer;
 }
