@@ -2,9 +2,9 @@ import About from './About'
 
 function Header() {
     return (
-        <div>
-            <h1>Kaitlyn Greve</h1>
-            <h3>Software Engineer</h3>
+        <div className='title-container'>
+            <h1 className='title' >Kaitlyn Greve</h1>
+            <h2 className='title-2' >Software Engineer</h2>
             {/* <img className='profile-photo' src='images/profilephoto.jpg' /> */}
             <About />
         </div>

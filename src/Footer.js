@@ -2,7 +2,7 @@
 function Footer() {
     return (
         <div>
-            <h3>Contact Info</h3>
+            <h2>Contact Info</h2>
         </div>
     );
 }
