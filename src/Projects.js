@@ -1,4 +1,5 @@
 import ProjectCard from './ProjectCard'
+import ProjectDetail from './ProjectDetail';
 
 function Projects() {
 
@@ -41,6 +42,7 @@ function Projects() {
                     return <ProjectCard project={project} key={project.github} />
                 })}
             </div>
+            {/* <ProjectDetail projects={projects} /> */}
         </div>
     );
 }

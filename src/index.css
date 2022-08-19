@@ -5,7 +5,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #87ba9f;
+  background-color: #fffafa;
 }
 
 textarea {
@@ -30,6 +30,17 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.link {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.link:hover {
+  color: #87ba9f;
+  cursor: pointer;
 }
 
 .title-container {
@@ -57,7 +68,7 @@ code {
 
 .card,
 .section-card {
-  box-shadow: 0 10px 15px -3px rgba(3, 94, 56, 0.15);
+  box-shadow: 0 10px 15px -3px rgb(181, 107, 107, 0.15);
 }
 
 .section-contained {
@@ -116,7 +127,7 @@ code {
 }
 
 .contact-form-inputs {
-  border: solid rgb(81, 81, 81, 0.3);
+  border: solid rgb(181, 107, 107, 0.15);
   font-size: 16px;
   display: flex;
   flex-direction: column;
@@ -129,7 +140,7 @@ code {
 }
 
 .send-button {
-  background-color: #87ba9f;
+  background-color: #F5BD8D;
   border: none;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
