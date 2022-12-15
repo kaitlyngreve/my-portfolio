@@ -24,13 +24,6 @@ function Projects() {
             'github': 'https://github.com/kaitlyngreve/Phase-4-Stranger-Project',
             'image': 'images/strangerthingsapp.jpg',
             'description': 'A game where you build a team with Stranger Things characters to see if you defeated the Demogorgen.'
-        },
-        {
-            'id': 4,
-            'title': 'Car Log',
-            'github': 'https://github.com/HartPM/Phase-3-Project-Front-End',
-            'image': 'url',
-            'description': 'A personal car log to keep track of your cars and projects associated with them'
         }
     ]
 

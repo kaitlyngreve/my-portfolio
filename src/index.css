@@ -8,6 +8,18 @@ body {
   background-color: #fffafa;
 }
 
+.profile-photo {
+  width: 30%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.info-div {
+  display: flex;
+}
+
 textarea {
   resize: none;
 }
@@ -36,6 +48,8 @@ code {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: black;
+  display: flex;
+  padding: 10px;
 }
 
 .link:hover {
